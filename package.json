@@ -1,6 +1,6 @@
 {
   "name": "cities-list",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A list, huge one, (~80K) of cities.",
   "main": "index.json",
   "directories": {
