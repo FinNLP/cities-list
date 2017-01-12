@@ -9,9 +9,9 @@ npm i --save cities-list
 
 ```javascript
 const cities = require("cities-list");
-console.log(cities) // WARNING: this will print out the whole array
-console.log(cities.indexOf("london")) // gives you the index
-console.log(cities.indexOf("notacity")) // -1
+console.log(cities) // WARNING: this will print out the whole object
+console.log(cities["london"]) // 1
+console.log(cities["something else"]) // undefined
 ```
 
 ### Data Source
